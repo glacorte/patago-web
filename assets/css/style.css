@@ -1,0 +1,47 @@
+:root {
+  --ink:#143746;
+  --teal:#0d6f82;
+  --cream:#f6f3ec;
+  --white:#fff;
+  --sand:#ded7c9;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
+a{color:inherit}
+.container{width:min(1080px,92%);margin:auto}
+.hero{min-height:82vh;display:grid;align-items:end;position:relative;background:
+linear-gradient(180deg,rgba(8,35,45,.10),rgba(8,35,45,.82)),
+url('assets/images/hero-bg.jpeg') center/cover no-repeat;color:white}
+.hero-inner{padding:64px 0 58px}
+.logo{display:none}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;font-weight:700;opacity:.9}
+h1{font-size:clamp(2.4rem,7vw,5.4rem);line-height:.98;margin:12px 0 18px;max-width:800px}
+.lead{font-size:clamp(1.05rem,2vw,1.35rem);max-width:700px}
+.price{display:inline-block;margin-top:28px;padding:16px 22px;background:var(--white);color:var(--ink);border-radius:14px;font-weight:800;font-size:1.25rem}
+section{padding:78px 0}
+.section-title{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;margin:0 0 18px}
+.section-copy{max-width:720px;font-size:1.08rem}
+.experience{background:var(--white)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px}
+.step{border-top:3px solid var(--teal);padding:20px 8px 0}
+.step-number{font-weight:800;color:var(--teal);font-size:.85rem;letter-spacing:.12em}
+.step h3{margin:8px 0 7px;font-size:1.1rem}
+.gallery{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:20px;display:block}
+.gallery .big{min-height:560px}
+.gallery .small{min-height:560px}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.feature img{width:100%;border-radius:20px;display:block}
+.card{background:var(--ink);color:white;border-radius:24px;padding:40px}
+.tariff{font-size:clamp(2.8rem,7vw,5rem);font-weight:900;line-height:1;margin:12px 0}
+.muted{opacity:.8}
+.cta{background:#e8e2d6;text-align:center}
+.button{display:inline-block;background:var(--teal);color:white;text-decoration:none;padding:16px 28px;border-radius:999px;font-weight:800;margin-top:16px}
+footer{background:var(--ink);color:white;padding:30px 0;text-align:center}
+@media(max-width:800px){
+.steps,.feature,.gallery{grid-template-columns:1fr}
+.gallery .big,.gallery .small{min-height:320px}
+section{padding:58px 0}
+.hero{min-height:76vh}
+}

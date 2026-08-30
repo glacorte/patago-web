@@ -45,3 +45,48 @@ footer{background:var(--ink);color:white;padding:30px 0;text-align:center}
 section{padding:58px 0}
 .hero{min-height:76vh}
 }
+/* Language Selector */
+.language-selector {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+.language-selector select {
+  font-family: inherit;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(8, 35, 45, 0.6);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.language-selector select option {
+  color: black;
+  background: white;
+}
+
+/* Language Selector */
+.language-selector {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+.language-selector select {
+  font-family: inherit;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(8, 35, 45, 0.6);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.language-selector select option {
+  color: black;
+  background: white;
+}

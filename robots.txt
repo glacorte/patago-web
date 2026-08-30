@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://patago.com.ar/sitemap.xml
